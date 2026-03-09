@@ -1,0 +1,29 @@
+Recetario Descentralizado en Solana
+
+ Introducción
+
+La tecnología blockchain permite desarrollar aplicaciones descentralizadas que almacenan información de manera segura y transparente. En este proyecto se utilizó Solana junto con el lenguaje Rust y el framework Anchor para crear un sistema que permite administrar un recetario digital dentro de la blockchain.
+
+El objetivo del proyecto es implementar las operaciones básicas de gestión de datos conocidas como CRUD (crear, leer, actualizar y eliminar), aplicadas al manejo de recetas dentro de un recetario.
+
+ Descripción del sistema
+
+El sistema consiste en un recetario que pertenece a un usuario (owner). Dentro de este recetario se pueden almacenar varias recetas, cada una con información como el nombre del platillo, los ingredientes, el procedimiento de preparación y su disponibilidad.
+
+Todas las recetas se almacenan dentro de una cuenta en la blockchain, lo que permite que la información sea gestionada de manera descentralizada.
+
+ Funcionalidades
+
+El programa implementa las siguientes funciones principales:
+
+Crear recetario: Permite crear una cuenta donde se almacenarán las recetas del usuario.
+Agregar receta: Permite añadir nuevas recetas al recetario.
+Ver recetas: Permite consultar las recetas almacenadas.
+Alternar disponibilidad: Permite cambiar el estado de disponibilidad de una receta.
+Eliminar receta: Permite eliminar una receta del recetario.
+
+Estas funciones permiten administrar la información de forma completa dentro del sistema.
+
+ Conclusión
+
+Este proyecto permitió aplicar conceptos de desarrollo en blockchain utilizando Solana y Anchor. A través de la implementación de un recetario descentralizado se logró comprender cómo almacenar y manipular información dentro de la blockchain mediante operaciones CRUD. Además, se demostró que este tipo de tecnología puede utilizarse para crear aplicaciones seguras y descentralizadas para la gestión de datos.
